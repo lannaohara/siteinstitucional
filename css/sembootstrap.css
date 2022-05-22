@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+#sem-cor {
+    background-color: transparent;
+}
 
 .harmonia-img {
     height: 180px;
@@ -106,6 +109,6 @@ footer p {
 }
 
 p {
-    font-family: 'Hubballi', cursive;
+    font-family: 'Nunito', sans-serif;
     font-weight: 500;
 }
