@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+/* header.active {
+    position: fixed;
+    background: white;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+} */
+
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 992px) {
+    .embed-video-responsive  {
+        background-color: pink;
+    }
+
+    .embed-video-responsive > iframe {
+        width: 450px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .embed-video-responsive  {
+        margin: 0 auto;
+        width: fit-content;
+    }
+    /* .embed-video-responsive > iframe {
+        align-self: center;
+    }     */
+}
+
+
+#servicos a.destaque {
+    display: block;
+    background: var(--light);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#servicos a.destaque:hover {
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .12);
+    transform: scale(1.05);
+}
+
+#servicos p {
+    color: var(--dark);
+}
+
+#servicos a.destaque .img.destaque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+
+}
+
+#servicos a.destaque .img.destaque img {
+    max-height: 160px;
+}
+
+
+/* DEPOIMENTOS */
+#depoimentos .depoimento {
+    background-color: var(--light);
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+}
+  
+#depoimentos .depoimento .quote {
+max-width: 35px;
+}
+
+#depoimentos .depoimento .name {
+color: #aaaaaa;
+}
+
+#depoimentos .depoimento .name span {
+color: #000;
+font-weight: 700;
+}
+

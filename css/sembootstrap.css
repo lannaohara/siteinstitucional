@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+.harmonia-img {
+    height: 180px;
+    width: 300px;
+}
+
+.btn-pessoa {
+    border-radius: 5px;
+    background-color: var(--dark);
+    color: white;
+    border: 0;
+    width: 120px;
+    margin: 10px 0px;
+    transition: ease-in-out 0.2s;
+}
+
+.btn-pessoa:hover {
+    background-color: var(--primary-dark);
+
+}
+
+.cor-btn {
+    color: white;
+}
+
+.cor-btn:hover {
+    color: white;
+}
+
+#grupo-mulheres {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#grupo-mulheres > h2 {
+    text-align: center;
+}
+
+.separar-em-dois {
+    display: flex;
+}
+
+.div-da-imagem {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo-mulheres {
+    width: 260px;
+    height: 220px;
+}
+
+.btn-zap {
+    background-color: var(--primary-dark);
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    width: 200px;
+}
+
+.btn-whatsapp {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 10px;
+    background: #1a1e22;
+    position: relative;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+ 
+.logos-rodape {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.logos-rodape a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.logos-rodape img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+p {
+    font-family: 'Hubballi', cursive;
+    font-weight: 500;
+}
