@@ -19,11 +19,8 @@ header {
     font-size: 18px;
     text-transform: uppercase;
 }
-@media screen and (max-width: 992px) {
-    .embed-video-responsive  {
-        background-color: pink;
-    }
 
+@media screen and (max-width: 992px) {
     .embed-video-responsive > iframe {
         width: 450px;
         height: 300px;
@@ -35,9 +32,24 @@ header {
         margin: 0 auto;
         width: fit-content;
     }
-    /* .embed-video-responsive > iframe {
-        align-self: center;
-    }     */
+}
+
+@media screen and (max-width: 480px) {
+    .embed-video-responsive > iframe {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .embed-video-responsive > iframe {
+        width: 90%;
+        height: 50%;
+    }
+
+    #rodape-contato {
+        font-size: 14px;
+    }
 }
 
 

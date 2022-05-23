@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-#sem-cor {
-    background-color: transparent;
+
+
+#servicos {
+    background-color: #c9a857;
+    height: fit-content;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.nome-negrito {
+    font-weight: 900;
 }
 
 .harmonia-img {
@@ -11,10 +21,10 @@
 
 .btn-pessoa {
     border-radius: 5px;
-    background-color: var(--dark);
+    background-color: var(--primary-dark);
     color: white;
     border: 0;
-    width: 120px;
+    width: 160px;
     margin: 10px 0px;
     transition: ease-in-out 0.2s;
 }
@@ -32,13 +42,18 @@
     color: white;
 }
 
+/* Feitos with */
+
 #grupo-mulheres {
+    margin-top: 30px;
     margin-left: 120px;
     margin-right: 120px;
+    font-family: 'Dancing Script', cursive;
 }
 
 #grupo-mulheres > h2 {
     text-align: center;
+    font-size: 50px;
 }
 
 .separar-em-dois {
@@ -48,7 +63,7 @@
 .div-da-imagem {
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .logo-mulheres {
@@ -57,12 +72,13 @@
 }
 
 .btn-zap {
-    background-color: var(--primary-dark);
+    background-color: rgb(13, 196, 13);
     border: 0;
     border-radius: 5px;
     padding: 5px;
     color: white;
     width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn-whatsapp {
