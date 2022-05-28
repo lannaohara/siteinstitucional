@@ -53,7 +53,7 @@ header {
 }
 
 
-#servicos a.destaque {
+#servicos .destaque {
     display: block;
     background: var(--light);
     border-radius: 5px;
@@ -64,7 +64,7 @@ header {
     transition: all ease-out 0.2s;
 }
 
-#servicos a.destaque:hover {
+#servicos .destaque:hover {
     background: white;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .12);
     transform: scale(1.05);
@@ -74,7 +74,7 @@ header {
     color: var(--dark);
 }
 
-#servicos a.destaque .img.destaque {
+#servicos .destaque .img.destaque {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@ header {
 
 }
 
-#servicos a.destaque .img.destaque img {
+#servicos .destaque .img.destaque img {
     max-height: 160px;
 }
 
